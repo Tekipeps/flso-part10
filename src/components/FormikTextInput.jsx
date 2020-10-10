@@ -12,7 +12,6 @@ const styles = StyleSheet.create({
     backgroundColor: "white",
     padding: 10,
     marginTop: 5,
-    marginBottom: 5
   },
   errorText: {
     marginTop: 5,
