@@ -4,6 +4,7 @@ import { useField } from "formik";
 
 import TextInput from "./TextInput";
 import Text from "./Text";
+import theme from "../theme";
 
 const styles = StyleSheet.create({
   container: {
@@ -15,6 +16,7 @@ const styles = StyleSheet.create({
   },
   errorText: {
     marginTop: 5,
+    color: theme.colors.error
   },
 });
 
