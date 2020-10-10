@@ -16,7 +16,6 @@ const styles = StyleSheet.create({
   },
   image: { width: 50, height: 50 },
   languageButton: {
-    backgroundColor: theme.colors.primary,
     padding: 5,
     borderRadius: 5,
     marginTop: 5,

@@ -9,15 +9,14 @@ import SignIn from "./components/SignIn";
 const styles = StyleSheet.create({
   container: {
     flexGrow: 1,
-    flexShrink: 1,
-    backgroundColor: 'green',
-    fontFamily: theme.fonts.main
+    backgroundColor: theme.colors.backgroundColor,
+    fontFamily: theme.fonts.main,    
   },
 });
 
 const Main = () => {
   return (
-    <View styles={styles.container}>
+    <View style={styles.container}>
       <AppBar />
       <Switch>
         <Route exact path='/' component={RepositoryList} />
